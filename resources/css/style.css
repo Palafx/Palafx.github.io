@@ -64,6 +64,12 @@ ol, ol li{
 }
 
 /* OG*/
+.cards li {
+	display: inline-block;
+	width: 140px;
+	position: absolute;
+	box-sizing: border-box;
+}
 #og li{
 	display: inline-block;
 	width: 140px;
