@@ -1,24 +1,21 @@
-h1 { 
-	font-family: Georgia;
-	font-size: 60px;
-	text-align: center;
-	color: #18D4FE;
-	
-}
 body { 
 	font-family: Georgia; 
 	font-size: 20px;
 	width: 1200px;
 	margin: 15px auto;
-	
 	background-color: #030810;
 	color: white;
+}
+h1 { 
+	font-family: Georgia;
+	font-size: 60px;
+	text-align: center;
+	color: #18D4FE;	
 }
 h2 { 
 	font-family: Georgia;
 	font-size: 40px;
-	text-align: center;
-	
+	text-align: center;	
 }
 h3 { 
 	font-family: Georgia;
@@ -33,19 +30,14 @@ h3 {
 	height: 1200px;
 	width: 100%;
 	position: relative;
-	
 }
 
 /*INDEX*/
-#index ol{
-	
-}
 #index li{
 	
 	width: 150px;
 	display: inline-block;
 }
-
 header { 
 	font-family: Georgia; 
 	font-size: 20px;
@@ -70,30 +62,16 @@ ol, ol li{
 	position: absolute;
 	box-sizing: border-box;
 }
-#og li{
-	display: inline-block;
-	width: 140px;
-	position: absolute;
-	box-sizing: border-box;
-
-}
-#og img{
+.cards img{
 	display: inline-block;
 	width: 140px;
 	border: none;
 	box-sizing: border-box;
+}
+
+#og img{
 	margin: 50px 0 0 0;	
 }
-#singles li{
-	display: inline-block;
-	width: 140px;
-	position: absolute;
-	box-sizing: border-box;
-}
 #singles img{
-	display: inline-block;
-	width: 140px;
-	border: none;
-	box-sizing: border-box;
 	margin: 90px 0 0 0;	
 }
